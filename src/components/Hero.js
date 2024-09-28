@@ -5,7 +5,7 @@ import {AiOutlineLinkedin, AiOutlineWhatsApp, AiOutlineMail } from "react-icons/
 
 export default function Hero(){
     return(
-        <section className='d-flex flex-column p-4 flex-sm-row justify-content-center bg-color1 hero-height'>
+        <section className='d-flex flex-column p-4 flex-sm-row justify-content-center bg-color1 hero-height' id='home'>
                     <img className="col-12 col-md-3 responsive-img" src={programmerImg}/>
 
             <div className='d-flex flex-column justify-content-center'>

@@ -47,7 +47,7 @@ const Hanuman = () => {
       <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item" onClick={closeMenu}>
-            <a className="nav-link" href="/">Home</a>
+            <a className="nav-link" href="#home">Home</a>
           </li>
           <li className="nav-item" onClick={closeMenu}>
             <a className="nav-link" href="#about">About</a>

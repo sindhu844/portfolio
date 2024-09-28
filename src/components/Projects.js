@@ -1,5 +1,7 @@
 import blog from '../assests/blog.png';
 import tour from '../assests/tour.jpg';
+import wood from '../assests/11.jpg';
+
 import './Hero.css';
 
 export default function Projects(){
@@ -40,8 +42,21 @@ export default function Projects(){
                         </div>
                     </p>
                 </div>
+
+                <div className='position-relative m-2'>
+                <img className='Blog-img' src={wood}/>
                 
+                <div className='d-flex flex-row flex-sm-column justify-content-center ms-5'>  
+                    <p className='position-absolute top-0 start-0 text'>
+                        This is a creation of unique wood furniture and interiors website made up of wordpress
+                        <div>
+                        <button className='btn mt-4'><a className='text-decoration-none text-white' href="https://www.harsantours.com/" target="_blank" rel="noopener noreferrer">View Project</a></button>
+                        </div>
+                    </p>
                 </div>
+                </div>
+                </div>
+
 
                 
 
