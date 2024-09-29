@@ -1,6 +1,6 @@
 import blog from '../assests/blog.png';
 import tour from '../assests/tour.jpg';
-import wood from '../assests/11.jpg';
+import wood from '../assests/wood.jpeg';
 
 import './Hero.css';
 
@@ -8,7 +8,7 @@ export default function Projects(){
     return(
        
 
- <section className='d-flex flex-column p-3 bg-color' id='projects'>
+ <section className='d-flex flex-column p-3 bg-color container' id='projects'>
             <div className='d-flex flex-row justify-content-center pt-3 gradient-text skills-mar'>
                 <h1>Projects</h1>
             </div>
@@ -42,6 +42,8 @@ export default function Projects(){
                         </div>
                     </p>
                 </div>
+                </div>
+
 
                 <div className='position-relative m-2'>
                 <img className='Blog-img' src={wood}/>
@@ -50,10 +52,9 @@ export default function Projects(){
                     <p className='position-absolute top-0 start-0 text'>
                         This is a creation of unique wood furniture and interiors website made up of wordpress
                         <div>
-                        <button className='btn mt-4'><a className='text-decoration-none text-white' href="https://www.harsantours.com/" target="_blank" rel="noopener noreferrer">View Project</a></button>
+                        <button className='btn mt-4'><a className='text-decoration-none text-white' href="https://sindhu646.wordpress.com/2024/09/28/vs-elegant-entrances/" target="_blank" rel="noopener noreferrer">View Project</a></button>
                         </div>
                     </p>
-                </div>
                 </div>
                 </div>
 

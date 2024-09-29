@@ -31,7 +31,7 @@ const Hanuman = () => {
 
     <div className="container">
 
-    <a className="navbar-brand h1" href="/">PORTFOLIO</a>
+    <a className="navbar-brand h1" href="#home">PORTFOLIO</a>
 
       <button 
         className="navbar-toggler" 
